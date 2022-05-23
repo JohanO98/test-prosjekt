@@ -1,0 +1,8 @@
+{
+    "name": "johanoen98/skeleton",
+    "description": "A library for standard package structure",
+    "require": {
+        "php":"8.1.5"
+    }
+
+}
