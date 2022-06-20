@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2d0e3277be3393565014e3f2cf70f9aa7f157fce',
+        'reference' => '7ce379c6591f7b2672b81d99fdd98cf4b7a7c214',
         'name' => 'johanoen98/skeleton',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2d0e3277be3393565014e3f2cf70f9aa7f157fce',
+            'reference' => '7ce379c6591f7b2672b81d99fdd98cf4b7a7c214',
             'dev_requirement' => false,
         ),
         'nyholm/psr7' => array(
@@ -84,6 +84,15 @@
             'provided' => array(
                 0 => '1.0',
             ),
+        ),
+        'psr/http-server-handler' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/http-server-handler',
+            'aliases' => array(),
+            'reference' => 'aff2f80e33b7f026ec96bb42f63242dc50ffcae7',
+            'dev_requirement' => false,
         ),
     ),
 );
